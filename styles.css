@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: Kanit;
+}
+
+body {
+    background-color: #dadada;
+}
+
+.encabezado {
+    background-color: rgb(11, 82, 82);
+    padding: 25px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 44px;
+}
+
+.post {
+    width: 400px;
+    margin: 10px auto;
+    background-color: white;
+    padding-top: 5px;
+    overflow: hidden;
+    border-radius: 2%;
+    transition: box-shadow 0.3s ease;
+}
+
+.encabezado-post, .titulo-post, .texto-post, .descripcion-post {
+    margin: 12px
+}
+
+.contenedor-imagen-post {
+    background: url(images/coffee.png) no-repeat top center  / 400px 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.contenedor-imagen-post2 {
+    background: url(images/monster.png) no-repeat top center  / 400px 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.contenedor-imagen-post3 {
+    background: url(images/guitarra.png) no-repeat top center  / 400px 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer-principal {
+    background-color: rgb(15, 6, 6);
+    height: 80px;
+    padding: 20px;
+}
+
+.footer-principal .copyright{
+    float: left;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-principal .contacto, .atajo-footer{
+    color: white;
+    float: right;
+    margin-top: 30px;
+}
+
+.footer-principal .atajo-footer{
+    margin-left: 10px;
+}
+
+.footer-principal a, .footer-principal p{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-principal a:hover{
+    background-color: rgb(32, 15, 15);
+}
+
+.footer-principal a{
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.post:hover{
+    box-shadow: 0px 4px 15px rgba(29, 29, 29, 0.3);
+}
